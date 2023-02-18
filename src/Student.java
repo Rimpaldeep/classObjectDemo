@@ -5,7 +5,13 @@ public class Student {
     int marksScience;
     int marksChemistry;
 
-    public void totalMarks() {
-        System.out.println();
+    public Student (int marksMath, int marksScience, int marksChemistry) {
+        this.marksMath = marksMath;
+        this.marksChemistry = marksChemistry;
+        this.marksScience = marksScience;
+    }
+
+    public int totalMarks() {
+       return marksMath + marksScience + marksChemistry;
     }
 }
