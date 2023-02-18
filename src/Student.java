@@ -12,6 +12,6 @@ public class Student {
     }
 
     public int totalMarks() {
-       return marksMath + marksScience + marksChemistry;
+       return this.marksMath + this.marksScience + this.marksChemistry;
     }
 }
