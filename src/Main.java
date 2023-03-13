@@ -11,7 +11,7 @@ public class Main {
 
         student2.name = "Mohan";
         student2.phoneNumber = 12345783;
-        student2.totalMarks();
+        student2.totalMarks( );
         System.out.println("Total Marks obtained by " + student2.name + " are " + student2.totalMarks() );
 
         student3.name = "Sakshi";
