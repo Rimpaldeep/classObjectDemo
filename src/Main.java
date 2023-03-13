@@ -6,7 +6,7 @@ public class Main {
 
         student1.name = "Rimpal";
         student1.phoneNumber = 875461289;
-        student1.totalMarks();
+        student1.totalMarks( );
         System.out.println("Total Marks obtained by " + student1.name + " are " + student1.totalMarks());
 
         student2.name = "Mohan";
